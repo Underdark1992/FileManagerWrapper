@@ -30,4 +30,5 @@
 ### Useful links:
 
 [GitHub](https://github.com/Underdark1992/FileManagerWrapper/edit/main/README.md)
+
 [Demo](https://longtermtestingapp-sandbox.mxapps.io/index.html?profile=Responsive)
