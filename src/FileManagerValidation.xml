@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="auraq.filemanagervalidation.FileManagerValidation" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/">
+    <name>File Manager Wrapper</name>
+    <description>A wrapper to enforce standard validation styling on standard Mendix widgets like the File Manager.</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+            <propertyGroup caption="Appearance">
+                <property key="content" type="widgets" required="true">
+                    <caption>Widget Content</caption>
+                    <description>Place the standard Mendix File Manager here.</description>
+                </property>
+                <systemProperty key="Label"/>
+            </propertyGroup>
+            
+            <propertyGroup caption="Validation Settings">
+                <property key="targetAttribute" type="attribute" required="true">
+                    <caption>Validation Attribute</caption>
+                    <description>Select the attribute that will receive validation feedback.</description>
+                    <attributeTypes>
+                        <attributeType name="String"/>
+                        <attributeType name="Boolean"/>
+                    </attributeTypes>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+</widget>

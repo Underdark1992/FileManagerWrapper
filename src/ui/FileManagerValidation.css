@@ -1,0 +1,6 @@
+
+/* Neutralize Mendix default margins */
+.file-manager-content .form-group,
+.file-manager-content .mx-fileinput {
+    margin-bottom: 0 !important;
+}
